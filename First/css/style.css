@@ -1,6 +1,23 @@
 html,
 body {
     background-color: #e3e3e3;
+    font-family: 'Indie Flower', cursive;
 }
 
-;
+ul {
+    display: inline-block;
+}
+
+ul li {
+    float: right;
+    display: block;
+    text-decoration-style: none;
+    margin: 40px;
+    border-bottom: 1px solid rebeccapurple;
+    padding-bottom: 10px;
+}
+
+ul li a {
+    color: blueviolet;
+    text-decoration: none;
+}
